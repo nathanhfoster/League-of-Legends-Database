@@ -1,0 +1,18 @@
+Armor 0 400 0 65 Banshee's Veil
+Weapon 25 0.4 Blade of The Ruined King
+Armor 50 600 0 0 Dead Man's Plate
+Armor 90 0 400 0 Frozen Heart
+Weapon 45 0.054 Frozen Mallet
+Weapon 80 0.65 Infinity Edge
+Weapon 30 0.25 Lich Bane
+Weapon 60 0.088 Luden's Echo
+Weapon 60 0.25 Maw Of Malmortius
+Armor 0 0 0 25 Mercury's Threads
+Weapon 60 0.4 Nashor's Tooth
+Weapon 67 0.097 Ravenous Hydra
+Weapon 100 0.15 Rod of Ages
+Weapon 25 0.15 Sterak's Gage
+Weapon 80 20 The Blood Thrister
+Armor 100 0 0 0 Thorn Mail
+Weapon 40 0.5 Titanic Hyrda
+Weapon 25 0.3 Trinity Force

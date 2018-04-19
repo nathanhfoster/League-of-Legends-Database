@@ -66,10 +66,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClInclude Include="BST.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Particle System.h" />
+    <ClInclude Include="Random.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
