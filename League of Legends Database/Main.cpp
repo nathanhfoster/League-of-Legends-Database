@@ -445,109 +445,11 @@ void launchChampionMenu(Hero Champion, List<Equipment>* Store_Inventory, sf::Ren
 		window.close();
 
 	sf::Texture itemShop;
-	if (Champion.getName() == "Darius")
-		if (!itemShop.loadFromFile("shop_Darius.png"))
-			window.close();
 
-	if (Champion.getName() == "Diana")
-		if (!itemShop.loadFromFile("shop_Diana.png"))
-			window.close();
+	if (!itemShop.loadFromFile("shop_" + Champion.getName() + ".png"))
+		window.close();
 
-	if (Champion.getName() == "Fiora")
-		if (!itemShop.loadFromFile("shop_Fiora.png"))
-			window.close();
-
-	if (Champion.getName() == "Gangplank")
-		if (!itemShop.loadFromFile("shop_GangPlank.png"))
-			window.close();
-
-	if (Champion.getName() == "Garen")
-		if (!itemShop.loadFromFile("shop_Garen.png"))
-			window.close();
-
-	if (Champion.getName() == "Hecarim")
-		if (!itemShop.loadFromFile("shop_Hecarim.png"))
-			window.close();
-
-	if (Champion.getName() == "LeBlanc")
-		if (!itemShop.loadFromFile("shop_LeBlanc.png"))
-			window.close();
-
-	if (Champion.getName() == "Lissandra")
-		if (!itemShop.loadFromFile("shop_Lissandra.png"))
-			window.close();
-
-	if (Champion.getName() == "Lulu")
-		if (!itemShop.loadFromFile("shop_Lulu.png"))
-			window.close();
-
-	if (Champion.getName() == "Lux")
-		if (!itemShop.loadFromFile("shop_Lux.png"))
-			window.close();
-
-	if (Champion.getName() == "Malphite")
-		if (!itemShop.loadFromFile("shop_Malphite.png"))
-			window.close();
-
-	if (Champion.getName() == "Mordekaiser")
-		if (!itemShop.loadFromFile("shop_Mordekaiser.png"))
-			window.close();
-
-	if (Champion.getName() == "Nidalee")
-		if (!itemShop.loadFromFile("shop_Nidalee.png"))
-			window.close();
-
-	if (Champion.getName() == "Olaf")
-		if (!itemShop.loadFromFile("shop_Olaf.png"))
-			window.close();
-
-	if (Champion.getName() == "Poppy")
-		if (!itemShop.loadFromFile("shop_Poppy.png"))
-			window.close();
-
-	if (Champion.getName() == "Rammus")
-		if (!itemShop.loadFromFile("shop_Rammus.png"))
-			window.close();
-
-	if (Champion.getName() == "Riven")
-		if (!itemShop.loadFromFile("shop_Riven.png"))
-			window.close();
-
-	if (Champion.getName() == "Sion")
-		if (!itemShop.loadFromFile("shop_Sion.png"))
-			window.close();
-
-	if (Champion.getName() == "Sona")
-		if (!itemShop.loadFromFile("shop_Sona.png"))
-			window.close();
-
-	if (Champion.getName() == "Syndra")
-		if (!itemShop.loadFromFile("shop_Syndra.png"))
-			window.close();
-
-	if (Champion.getName() == "Teemo")
-		if (!itemShop.loadFromFile("shop_Teemo.png"))
-			window.close();
-
-	if (Champion.getName() == "Twitch")
-		if (!itemShop.loadFromFile("shop_Twitch.png"))
-			window.close();
-
-	if (Champion.getName() == "Vayne")
-		if (!itemShop.loadFromFile("shop_Vayne.png"))
-			window.close();
-
-	if (Champion.getName() == "Veigar")
-		if (!itemShop.loadFromFile("shop_Veigar.png"))
-			window.close();
-
-	if (Champion.getName() == "Yorick")
-		if (!itemShop.loadFromFile("shop_Yorick.png"))
-			window.close();
-
-	if (Champion.getName() == "Zed")
-		if (!itemShop.loadFromFile("shop_Zed.png"))
-			window.close();
+	
 	
 	itemShop.setSmooth(true);
 
